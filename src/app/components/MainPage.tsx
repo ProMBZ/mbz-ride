@@ -22,7 +22,7 @@ export default function MainPage() {
   const [estimatedPrice, setEstimatedPrice] = useState(500);
   const [pickup, setPickup] = useState('');
   const [destination, setDestination] = useState('');
-  const [activeSection, setActiveSection] = useState('bookRide'); // Manages the active section
+  const [activeSection] = useState('bookRide'); // Manages the active section
   const { isSignedIn } = useUser(); // Check if the user is signed in
 
   const defaultPosition = [24.8607, 67.0011]; // Default position (Karachi)
