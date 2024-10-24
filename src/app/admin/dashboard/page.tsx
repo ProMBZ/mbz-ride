@@ -37,7 +37,6 @@ const rideRequests = [
 ];
 
 const DashboardPage = () => {
-  const [isSidebarOpen, setIsSidebarOpen] = useState(true); // State to manage sidebar visibility
 
   return (
       <div className="flex-1 p-10 bg-gray-100">
