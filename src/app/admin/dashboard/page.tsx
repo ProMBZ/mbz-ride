@@ -1,5 +1,4 @@
-'use client'
-import React, { useState } from 'react';
+import React from 'react';
 
 // Sample data for cards
 const stats = [
