@@ -3,7 +3,6 @@
 import React, { useState } from 'react';
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
-import L from 'leaflet';
 import Link from 'next/link';
 import { useUser } from '@clerk/nextjs'; // Import the useUser hook
 import { SignInButton, SignedIn, SignedOut, UserButton } from '@clerk/nextjs';
